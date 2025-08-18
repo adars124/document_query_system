@@ -1,0 +1,18 @@
+# Django & DRF
+django
+djangorestframework
+django-environ
+psycopg2-binary
+
+# Vector DB & AI
+weaviate-client
+sentence-transformers
+ollama
+
+# Document Processing
+docling
+docling-core[chunking]
+langchain-huggingface
+pypdfium2
+python-multipart
+torch

@@ -23,8 +23,9 @@ from rest_framework.authtoken import views as authtoken_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/v1/", include("documents.urls")),
-    path("api/token-auth/", authtoken_views.obtain_auth_token),
+    path("api/v1/documents/", include("documents.urls")),
+    path("api/v1/courses/", include("courses.urls")),
+    path("api/v1/token/", authtoken_views.obtain_auth_token),
 ]
 
 if settings.DEBUG:

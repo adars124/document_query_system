@@ -41,11 +41,14 @@ INSTALLED_APPS = [
     # Rest Framework
     "rest_framework",
     "rest_framework.authtoken",
+    # Django filters for advanced filtering
+    "django_filters",
     # Local apps
     "users",
     "documents",
     "rag",
     "analytics",
+    "courses",
 ]
 
 MIDDLEWARE = [

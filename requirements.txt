@@ -1,6 +1,7 @@
 # Django & DRF
 django
 djangorestframework
+django-filter
 django-environ
 psycopg2-binary
 
